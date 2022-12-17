@@ -26,3 +26,54 @@ body {
   background-color: var(--bodyColor);
   position: relative;
 }
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: var(--secondaryColor);
+  padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem 0;
+}
+
+.search-input {
+  outline: none;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+.search-input:focus {
+  outline: 2px solid var(--primaryColor);
+}
+
+.search-input::placeholder {
+  font-weight: bold;
+}
+
+.filter-box {
+  display: flex;
+  gap: 0 2rem;
+}
+
+.btn {
+  outline: none;
+  border: 0;
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  border: 2px solid var(--primaryColor);
+  border-radius: 5px;
+  padding: 4px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}

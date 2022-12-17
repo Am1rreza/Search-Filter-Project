@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <div class="header">
+        <h1>Product Filter</h1>
+        <div class="search-box">
+          <form>
+            <input
+              type="text"
+              placeholder="Search Product"
+              id="search"
+              class="search-input"
+            />
+          </form>
+        </div>
+        <div class="filter-box">
+          <button class="btn" data-filter="all">All</button>
+          <button class="btn" data-filter="watch">Watch</button>
+          <button class="btn" data-filter="phone">Phone</button>
+          <button class="btn" data-filter="laptop">Laptop</button>
+          <button class="btn" data-filter="keyboard">Keyboard</button>
+        </div>
+      </div>
+    </header>
+
     <script src="./index.js"></script>
   </body>
 </html>
