@@ -30,21 +30,21 @@
     },
     {
       "id": 5,
-      "title": "Samsung S22 Ultra",
+      "title": "Samsung S22 Ultra Phone",
       "class": "phone",
       "price": 999,
       "image": "/assets/5.png"
     },
     {
       "id": 6,
-      "title": "Xiaomi Mi11 Lite",
+      "title": "Xiaomi Mi11 Lite Phone",
       "class": "phone",
       "price": 650,
       "image": "/assets/6.png"
     },
     {
       "id": 7,
-      "title": "Huawei P50 Pro",
+      "title": "Huawei P50 Pro Phone",
       "class": "phone",
       "price": 999,
       "image": "/assets/7.png"
@@ -58,21 +58,21 @@
     },
     {
       "id": 9,
-      "title": "Apple Macbook Air 2022",
+      "title": "Apple Macbook Air Laptop",
       "class": "laptop",
       "price": 2000,
       "image": "/assets/9.png"
     },
     {
       "id": 10,
-      "title": "Lenovo Ideapad Slim",
+      "title": "Lenovo Ideapad Slim Laptop",
       "class": "laptop",
       "price": 1500,
       "image": "/assets/10.png"
     },
     {
       "id": 11,
-      "title": "Asus ROG Strix G15",
+      "title": "Asus ROG Strix Laptop",
       "class": "laptop",
       "price": 1350,
       "image": "/assets/11.png"
