@@ -28,7 +28,7 @@ searchInput.addEventListener("input", (e) => {
 
 // functions
 function renderProducts(_products, _filters) {
-  const filteredProducts = _products.filter((p) => {
+  const filteredProducts = _products.items.filter((p) => {
     return p.title.toLowerCase().includes(_filters.searchItem.toLowerCase());
   });
 
